@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Sarala:wght@400;700&display=swap');
+
+
+:root {
+    --primary-color: #2e483a; 
+    --background-color: #F6F3ED;
+    --bs-primary: #2e483a; 
+}
+
+.bg-primary, .btn-primary {
+    background-color: var(--bs-primary) !important;
+    border-color: var(--bs-primary) !important;
+}
+
+
+.pick-your-plan:hover {
+    animation: bounce 1s; 
+}
+
+.save-30 {
+    animation-duration: 1.5s; 
+    animation-iteration-count: infinite; 
+}
+
+.save-30:hover {
+    animation: swing 1s; 
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: "Sarala", sans-serif;
+}
+
+section {
+    border-top: 1px solid #e0e0e0; 
+    border-bottom: 1px solid #e0e0e0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#hero, #cta, footer {
+    border-top: none;
+    border-bottom: none;
+}
+
+h1, h2, h3 {
+    font-family: "Merriweather", serif;
+}
+
+.navbar-brand {
+    color: #F6F3ED;
+}
+
+.navbar, footer, .bg-primary {
+    background-color: var(--primary-color) !important;
+}
+
+.text-primary, .navbar-brand, .footer-text {
+    color: var(--primary-color) !important;
+}
+
+
+#hero {
+    height: 100vh;
+    background-image: url('images/hero-bg-img.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#hero h1, #hero p {
+    color: black;
+}
+
+
+#cta {
+    background-image: url('images/cta-bg.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+.btn-primary, .btn-success {
+    background-color: var(--primary-color);
+    border: none;
+    color: #fff;
+}
+
+.btn-primary:hover, .btn-success:hover {
+    background-color: #163320; 
+}
+
+
+.navbar-brand img,
+#how-it-works img,
+footer img {
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.navbar-brand {
+    color: #F6F3ED !important; /* Ensure it overrides other styles */
+}
+
+
+#testimonials img {
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 50%;
+    }
+    
